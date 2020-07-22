@@ -1,0 +1,41 @@
+PYTHON NOTES
+
+
+     LIST:  
+          1.it contains a set of numbers or names or float values
+          2.list should be in square brackets
+              ex:list=['21','sai,'22.5']
+          3.values in list can be changed by using different commands like append,insert,remove etc..
+          4.when we are using commands we should use dot operator
+             ex:  .append(),.pop()
+    TUPLE:
+          1.it is same as list but the values cant be changed in tuple
+          2.tuple should be in round bracket
+    SET:
+          1.set is a collection of elements
+          2.it will not follow the sequence of elements
+          3.it should be in curly braces
+            ex:set={12,23,45,67,89}
+          4.it will not allow duplicate values means repetition of values
+--> if you want to know address of a variable use the function id() in python 
+           ex: name='navin'
+                id(name) it gives the address of that name
+--> if you have the same data for different variables it gives the same address
+           ex: a=10,b=10;   
+               id(a)  id(b) it gives the same address 
+--> by using type() function you can determine which datatype it is
+           ex: PI=3.14
+                type(PI)   is float
+   
+   DATA TYPES:
+     1.none
+     2.numeric
+     3.list
+     4.tuple
+     5.set
+     6.string
+     7.range
+     8.dictonary-it should be in {} braces,it contains key        
+                     ex:d={'sai':'oneplus','daddy':'redmi'}
+
+
